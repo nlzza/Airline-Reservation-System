@@ -16,6 +16,6 @@
 * For each flight, the airline company will be able to view how many business and economy seats have been booked.
 * They can postpone flights.
 * They can cancel flights.
-* In case of any postponement or cancellation, a notification will be sent to users.
-* In case of caancellation, they will also be refunded.
+* In case of any postponement or cancellation, a notification will be sent to customers.
+* In case of cancellation, the customers will also be refunded.
 * A notification will also be sent to users 3 hours before the flight.

@@ -241,4 +241,235 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Xr4v8EZvEe2DoeL5KtrCdw" name="alter appearance" type="_Q-6hoEZvEe2DoeL5KtrCdw" association="_XrvmAEZvEe2DoeL5KtrCdw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Xr4v8UZvEe2DoeL5KtrCdw" name="airline company" type="_JbAaYEZmEe2DoeL5KtrCdw" association="_XrvmAEZvEe2DoeL5KtrCdw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_n3_ygF12Ee2U7_FkrnblmA" name="Airline Reservation System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7xP04F12Ee2U7_FkrnblmA" name="Sign up">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_I1UvMF13Ee2U7_FkrnblmA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_J-5mYV13Ee2U7_FkrnblmA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9y7YwF12Ee2U7_FkrnblmA" name="Facebook">
+      <extend xmi:type="uml:Extend" xmi:id="_I1K-MF13Ee2U7_FkrnblmA" extendedCase="_7xP04F12Ee2U7_FkrnblmA" extensionLocation="_I1UvMF13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AAkVAF13Ee2U7_FkrnblmA" name="Google">
+      <extend xmi:type="uml:Extend" xmi:id="_J-5mYF13Ee2U7_FkrnblmA" extendedCase="_7xP04F12Ee2U7_FkrnblmA" extensionLocation="_J-5mYV13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NDc8gF13Ee2U7_FkrnblmA" name="Search flights">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_VGeXwV13Ee2U7_FkrnblmA" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_40UUQF13Ee2U7_FkrnblmA" addition="_ywxdcF13Ee2U7_FkrnblmA"/>
+      <include xmi:type="uml:Include" xmi:id="_58zmUF13Ee2U7_FkrnblmA" addition="_09Nf0F13Ee2U7_FkrnblmA"/>
+      <include xmi:type="uml:Include" xmi:id="_YbHtcF15Ee2U7_FkrnblmA" addition="_WNCFQF15Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RbsvIF13Ee2U7_FkrnblmA" name="Filter flights">
+      <extend xmi:type="uml:Extend" xmi:id="_VGeXwF13Ee2U7_FkrnblmA" extendedCase="_NDc8gF13Ee2U7_FkrnblmA" extensionLocation="_VGeXwV13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XvC8gF13Ee2U7_FkrnblmA" name="Days">
+      <generalization xmi:type="uml:Generalization" xmi:id="_h8-JEF13Ee2U7_FkrnblmA" general="_RbsvIF13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZrD9QF13Ee2U7_FkrnblmA" name="Timing">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iwpBsF13Ee2U7_FkrnblmA" general="_RbsvIF13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cABCcF13Ee2U7_FkrnblmA" name="Company">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jfmZcF13Ee2U7_FkrnblmA" general="_RbsvIF13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dw_34F13Ee2U7_FkrnblmA" name="Cost">
+      <generalization xmi:type="uml:Generalization" xmi:id="_k8pmQF13Ee2U7_FkrnblmA" general="_RbsvIF13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fTSxEF13Ee2U7_FkrnblmA" name="Class">
+      <generalization xmi:type="uml:Generalization" xmi:id="_l0ChQF13Ee2U7_FkrnblmA" general="_RbsvIF13Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ywxdcF13Ee2U7_FkrnblmA" name="Specify start"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_09Nf0F13Ee2U7_FkrnblmA" name="Specify destination"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__wUdEF13Ee2U7_FkrnblmA" name="Book flight">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9R1hEV16Ee2U7_FkrnblmA" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_ERh-cF14Ee2U7_FkrnblmA" addition="_BrcF8F14Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BrcF8F14Ee2U7_FkrnblmA" name="Payment">
+      <include xmi:type="uml:Include" xmi:id="_Ooo8MF14Ee2U7_FkrnblmA" addition="_K4nAIF14Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_K4nAIF14Ee2U7_FkrnblmA" name="Generate ticket">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QGTNAV14Ee2U7_FkrnblmA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Mhm-QF14Ee2U7_FkrnblmA" name="Share ticket">
+      <extend xmi:type="uml:Extend" xmi:id="_QGTNAF14Ee2U7_FkrnblmA" extendedCase="_K4nAIF14Ee2U7_FkrnblmA" extensionLocation="_QGTNAV14Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XxFucF14Ee2U7_FkrnblmA" name="Give rating">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jydOkV14Ee2U7_FkrnblmA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZoFFQF14Ee2U7_FkrnblmA" name="Comment">
+      <extend xmi:type="uml:Extend" xmi:id="_jydOkF14Ee2U7_FkrnblmA" extendedCase="_XxFucF14Ee2U7_FkrnblmA" extensionLocation="_jydOkV14Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ydrF0F14Ee2U7_FkrnblmA" name="Enter flight data"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4yvxgF14Ee2U7_FkrnblmA" name="View flight data"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__7CC0F14Ee2U7_FkrnblmA" name="Postpone">
+      <include xmi:type="uml:Include" xmi:id="_lVFCcF15Ee2U7_FkrnblmA" addition="_hI0dYF15Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_A03N0F15Ee2U7_FkrnblmA" name="Cancel">
+      <include xmi:type="uml:Include" xmi:id="_OYo74F15Ee2U7_FkrnblmA" addition="_MWKt0F15Ee2U7_FkrnblmA"/>
+      <include xmi:type="uml:Include" xmi:id="_nNLzkF15Ee2U7_FkrnblmA" addition="_hI0dYF15Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MWKt0F15Ee2U7_FkrnblmA" name="Refund"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WNCFQF15Ee2U7_FkrnblmA" name="Display flights"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hI0dYF15Ee2U7_FkrnblmA" name="Notify user"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uxKiYF15Ee2U7_FkrnblmA" name="Postponement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_5QgPEF15Ee2U7_FkrnblmA" general="_hI0dYF15Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_w_k6sF15Ee2U7_FkrnblmA" name="Cancellation">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6DXPYF15Ee2U7_FkrnblmA" general="_hI0dYF15Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0iAfoF15Ee2U7_FkrnblmA" name="3 hours before flight">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6rEIkF15Ee2U7_FkrnblmA" general="_hI0dYF15Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3F48MF16Ee2U7_FkrnblmA" name="Warn if timings overlap">
+      <extend xmi:type="uml:Extend" xmi:id="_9R1hEF16Ee2U7_FkrnblmA" extendedCase="__wUdEF13Ee2U7_FkrnblmA" extensionLocation="_9R1hEV16Ee2U7_FkrnblmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MazrUF17Ee2U7_FkrnblmA" name="Offer discount"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1Qay4F17Ee2U7_FkrnblmA" name="Toggle mode"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JSA48F18Ee2U7_FkrnblmA" name="Mark airline as fav"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RoIPUF18Ee2U7_FkrnblmA" name="View profile page"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_T6G5AF18Ee2U7_FkrnblmA" name="View popular destinations"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XDK7sF18Ee2U7_FkrnblmA" name="View best airlines"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ym4KIF18Ee2U7_FkrnblmA" name="View popular airlines"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uneiQF12Ee2U7_FkrnblmA" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xNeUIF12Ee2U7_FkrnblmA" name="Airline Company"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_y-ZfMF12Ee2U7_FkrnblmA" name="System"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EnAUoF13Ee2U7_FkrnblmA" memberEnd="_EnHpYl13Ee2U7_FkrnblmA _EnHpY113Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EnHpYF13Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EnHpYV13Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EnHpYl13Ee2U7_FkrnblmA" name="sign up" type="_7xP04F12Ee2U7_FkrnblmA" association="_EnAUoF13Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EnHpY113Ee2U7_FkrnblmA" name="customer" type="_uneiQF12Ee2U7_FkrnblmA" association="_EnAUoF13Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Fmn-kF13Ee2U7_FkrnblmA" memberEnd="_Fmn-k113Ee2U7_FkrnblmA _Fmn-lF13Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fmn-kV13Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fmn-kl13Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Fmn-k113Ee2U7_FkrnblmA" name="sign up" type="_7xP04F12Ee2U7_FkrnblmA" association="_Fmn-kF13Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Fmn-lF13Ee2U7_FkrnblmA" name="airline company" type="_xNeUIF12Ee2U7_FkrnblmA" association="_Fmn-kF13Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rp46UF13Ee2U7_FkrnblmA" memberEnd="_rp46U113Ee2U7_FkrnblmA _rp46VF13Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rp46UV13Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rp46Ul13Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rp46U113Ee2U7_FkrnblmA" name="search flights" type="_NDc8gF13Ee2U7_FkrnblmA" association="_rp46UF13Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rp46VF13Ee2U7_FkrnblmA" name="customer" type="_uneiQF12Ee2U7_FkrnblmA" association="_rp46UF13Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G0r3sF14Ee2U7_FkrnblmA" memberEnd="_G0wwMF14Ee2U7_FkrnblmA _G0wwMV14Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G0r3sV14Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G0r3sl14Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G0wwMF14Ee2U7_FkrnblmA" name="book flight" type="__wUdEF13Ee2U7_FkrnblmA" association="_G0r3sF14Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G0wwMV14Ee2U7_FkrnblmA" type="_uneiQF12Ee2U7_FkrnblmA" association="_G0r3sF14Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UYmvsF14Ee2U7_FkrnblmA" memberEnd="_UYmvs114Ee2U7_FkrnblmA _UYmvtF14Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UYmvsV14Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UYmvsl14Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UYmvs114Ee2U7_FkrnblmA" name="generate ticket" type="_K4nAIF14Ee2U7_FkrnblmA" association="_UYmvsF14Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UYmvtF14Ee2U7_FkrnblmA" name="system" type="_y-ZfMF12Ee2U7_FkrnblmA" association="_UYmvsF14Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oBtdQF14Ee2U7_FkrnblmA" memberEnd="_oB2nMV14Ee2U7_FkrnblmA _oB2nMl14Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oBtdQV14Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oB2nMF14Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oB2nMV14Ee2U7_FkrnblmA" name="give rating" type="_XxFucF14Ee2U7_FkrnblmA" association="_oBtdQF14Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oB2nMl14Ee2U7_FkrnblmA" type="_uneiQF12Ee2U7_FkrnblmA" association="_oBtdQF14Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3Exz0F14Ee2U7_FkrnblmA" memberEnd="_3Exz0114Ee2U7_FkrnblmA _3Exz1F14Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3Exz0V14Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3Exz0l14Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3Exz0114Ee2U7_FkrnblmA" name="enter flight data" type="_ydrF0F14Ee2U7_FkrnblmA" association="_3Exz0F14Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3Exz1F14Ee2U7_FkrnblmA" type="_xNeUIF12Ee2U7_FkrnblmA" association="_3Exz0F14Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6jR7AF14Ee2U7_FkrnblmA" memberEnd="_6jSiEl14Ee2U7_FkrnblmA _6jSiE114Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6jSiEF14Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6jSiEV14Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6jSiEl14Ee2U7_FkrnblmA" name="view flight data" type="_4yvxgF14Ee2U7_FkrnblmA" association="_6jR7AF14Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6jSiE114Ee2U7_FkrnblmA" type="_xNeUIF12Ee2U7_FkrnblmA" association="_6jR7AF14Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EFXVQF15Ee2U7_FkrnblmA" memberEnd="_EFhGQl15Ee2U7_FkrnblmA _EFhGQ115Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EFhGQF15Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EFhGQV15Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EFhGQl15Ee2U7_FkrnblmA" name="cancel" type="_A03N0F15Ee2U7_FkrnblmA" association="_EFXVQF15Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EFhGQ115Ee2U7_FkrnblmA" type="_xNeUIF12Ee2U7_FkrnblmA" association="_EFXVQF15Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FsfrIF15Ee2U7_FkrnblmA" memberEnd="_FsfrI115Ee2U7_FkrnblmA _FsfrJF15Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FsfrIV15Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FsfrIl15Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FsfrI115Ee2U7_FkrnblmA" name="postpone" type="__7CC0F14Ee2U7_FkrnblmA" association="_FsfrIF15Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FsfrJF15Ee2U7_FkrnblmA" type="_Fmn-kF13Ee2U7_FkrnblmA" association="_FsfrIF15Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_b1VxkF15Ee2U7_FkrnblmA" memberEnd="_b1Vxk115Ee2U7_FkrnblmA _b1VxlF15Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b1VxkV15Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b1Vxkl15Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_b1Vxk115Ee2U7_FkrnblmA" name="system" type="_y-ZfMF12Ee2U7_FkrnblmA" association="_b1VxkF15Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_b1VxlF15Ee2U7_FkrnblmA" name="display flights" type="_WNCFQF15Ee2U7_FkrnblmA" association="_b1VxkF15Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__rGT8F15Ee2U7_FkrnblmA" memberEnd="__rGT8115Ee2U7_FkrnblmA __rGT9F15Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__rGT8V15Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__rGT8l15Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__rGT8115Ee2U7_FkrnblmA" name="notify user" type="_hI0dYF15Ee2U7_FkrnblmA" association="__rGT8F15Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__rGT9F15Ee2U7_FkrnblmA" type="_b1VxkF15Ee2U7_FkrnblmA" association="__rGT8F15Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6YNBgF16Ee2U7_FkrnblmA" memberEnd="_6YNBg116Ee2U7_FkrnblmA _6YNBhF16Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6YNBgV16Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6YNBgl16Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6YNBg116Ee2U7_FkrnblmA" name="warn if timings overlap" type="_3F48MF16Ee2U7_FkrnblmA" association="_6YNBgF16Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6YNBhF16Ee2U7_FkrnblmA" type="_y-ZfMF12Ee2U7_FkrnblmA" association="_6YNBgF16Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Si5D4F17Ee2U7_FkrnblmA" memberEnd="_Si5D4117Ee2U7_FkrnblmA _Si5D5F17Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Si5D4V17Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Si5D4l17Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Si5D4117Ee2U7_FkrnblmA" name="offer discount" type="_MazrUF17Ee2U7_FkrnblmA" association="_Si5D4F17Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Si5D5F17Ee2U7_FkrnblmA" type="_xNeUIF12Ee2U7_FkrnblmA" association="_Si5D4F17Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8quoUF17Ee2U7_FkrnblmA" memberEnd="_8quoU117Ee2U7_FkrnblmA _8quoVF17Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8quoUV17Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8quoUl17Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8quoU117Ee2U7_FkrnblmA" name="customer" type="_uneiQF12Ee2U7_FkrnblmA" association="_8quoUF17Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8quoVF17Ee2U7_FkrnblmA" name="toggle mode" type="_1Qay4F17Ee2U7_FkrnblmA" association="_8quoUF17Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mVbk0F18Ee2U7_FkrnblmA" memberEnd="_mVbk0118Ee2U7_FkrnblmA _mVbk1F18Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mVbk0V18Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mVbk0l18Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mVbk0118Ee2U7_FkrnblmA" type="_oBtdQF14Ee2U7_FkrnblmA" association="_mVbk0F18Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mVbk1F18Ee2U7_FkrnblmA" name="mark airline as fav" type="_JSA48F18Ee2U7_FkrnblmA" association="_mVbk0F18Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zaAOYF18Ee2U7_FkrnblmA" memberEnd="_zaAOY118Ee2U7_FkrnblmA _zaAOZF18Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zaAOYV18Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zaAOYl18Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zaAOY118Ee2U7_FkrnblmA" type="_mVbk0F18Ee2U7_FkrnblmA" association="_zaAOYF18Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zaAOZF18Ee2U7_FkrnblmA" name="view profile page" type="_RoIPUF18Ee2U7_FkrnblmA" association="_zaAOYF18Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8hZ3wF18Ee2U7_FkrnblmA" memberEnd="_8hZ3w118Ee2U7_FkrnblmA _8hZ3xF18Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8hZ3wV18Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8hZ3wl18Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8hZ3w118Ee2U7_FkrnblmA" type="_zaAOYF18Ee2U7_FkrnblmA" association="_8hZ3wF18Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8hZ3xF18Ee2U7_FkrnblmA" name="view popular airlines" type="_Ym4KIF18Ee2U7_FkrnblmA" association="_8hZ3wF18Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-T2s0F18Ee2U7_FkrnblmA" memberEnd="_-T2s0118Ee2U7_FkrnblmA _-T2s1F18Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-T2s0V18Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-T2s0l18Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-T2s0118Ee2U7_FkrnblmA" type="_zaAOYF18Ee2U7_FkrnblmA" association="_-T2s0F18Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-T2s1F18Ee2U7_FkrnblmA" name="view best airlines" type="_XDK7sF18Ee2U7_FkrnblmA" association="_-T2s0F18Ee2U7_FkrnblmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CKYScF19Ee2U7_FkrnblmA" memberEnd="_CKYSc119Ee2U7_FkrnblmA _CKYSdF19Ee2U7_FkrnblmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CKYScV19Ee2U7_FkrnblmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CKYScl19Ee2U7_FkrnblmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CKYSc119Ee2U7_FkrnblmA" type="_-T2s0F18Ee2U7_FkrnblmA" association="_CKYScF19Ee2U7_FkrnblmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CKYSdF19Ee2U7_FkrnblmA" name="view popular destinations" type="_T6G5AF18Ee2U7_FkrnblmA" association="_CKYScF19Ee2U7_FkrnblmA"/>
+  </packagedElement>
 </uml:Model>

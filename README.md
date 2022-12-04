@@ -16,12 +16,10 @@
 11.	Airline company will enter various data such as number of flights and for each, its timings, starting location and destination, number of seats in business and economy, and cost of business and economy ticket.
 12.	For each flight, the airline company will be able to view how many business and economy seats have been booked.
 13.	They can postpone flights.
-14.	They can cancel flights.
-15.	In case of any postponement or cancellation, a notification will be sent to customers.
-16.	In case of cancellation, the customers will also be refunded.
-17.	A notification will also be sent to users 3 hours before the flight.
-18.	Customers can view most popular destinations.
-19.	A profile page which will display customer's information as well as his or her flight history.
-20.	Ability to use the app in light or dark mode.
-21.	Airline company can offer discount coupons.
-22.	Customers will be warned if they try to book flights with overlapping timings.
+14.	In case of any postponement, a notification will be sent to customers.
+15.	A notification will also be sent to users 3 hours before the flight.
+16.	Customers can view most popular destinations.
+17.	A profile page which will display customer's information as well as his or her flight history.
+18.	Ability to use the app in light or dark mode.
+19.	Airline company can offer discount coupons.
+20.	Customers will be warned if they try to book flights with overlapping timings.

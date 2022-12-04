@@ -4,7 +4,7 @@
 ### Features
 
 1.	Admin portal for airline company.
-2.	Authentication (including via Facebook and Google).
+2.	Authentication (including via email and Google).
 3.	Customers can search for flights and then book one.
 4.	Customers must specify the start location and the destination.
 5.	They can further filter by days, timings, cost, and class (business or economy).

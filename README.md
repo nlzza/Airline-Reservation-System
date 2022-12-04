@@ -5,10 +5,11 @@
 
 1.	Admin portal for airline company.
 2.	Authentication (including via email and Google).
-3.	Customers can search for flights and then book one.
-4.	Customers must specify the start location and the destination.
-5.	They can further filter by days, timings, cost, and class (business or economy).
+3.	Customers can search for flights using start location and the destination.
+4.	Customers can further filter by days, timings, cost, and class (business or economy).
 6.	The flights will be displayed from most recent to least.
+5.	They can book the desired flight.
+6.	They can reserve seats for multiple people.
 7.	After booking, a payment page will appear.
 8.	After payment, ticket(s) will be generated for printing.
 9.	The customers can share ticket(s) on social media such as WhatsApp.
@@ -19,7 +20,8 @@
 14.	In case of any postponement, a notification will be sent to customers.
 15.	A notification will also be sent to users 3 hours before the flight.
 16.	Customers can view most popular destinations.
-17.	A profile page which will display customer's information as well as his or her flight history.
-18.	Ability to use the app in light or dark mode.
-19.	Airline company can offer discount coupons.
-20.	Customers will be warned if they try to book flights with overlapping timings.
+17.	A profile page which will display customer's information.
+18.	Another page will be shown where customer can see his complete (upcoming and past) flight trips.
+19.	Ability to use the app in light or dark mode.
+20.	Airline company can offer discount coupons.
+21.	Customers will be warned if they try to book flights with overlapping timings.
